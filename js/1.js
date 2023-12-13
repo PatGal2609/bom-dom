@@ -42,4 +42,4 @@ aera = document.querySelector('#area');
 bnt = document.querySelector('.bnt');
 bnt.onclick=function() {
     aera.innerHTML=(navigator.appVersion);
-}
+};
