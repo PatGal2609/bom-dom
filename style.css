@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-top: 150px;
+}
+.bnt {
+    box-shadow:  0 0 0 0.5px rgb(22, 74, 245);
+}
+
+.bnt:focus {
+    box-shadow: inset 0px 0px 4px  rgb(2, 19, 255);
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
