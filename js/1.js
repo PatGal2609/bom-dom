@@ -38,8 +38,10 @@
 // function first() {
 //     alert('Hello')
 // }
-aera = document.querySelector('#area');
+aera = document.querySelector('textarea');
 bnt = document.querySelector('.bnt');
 bnt.onclick=function() {
-    aera.innerHTML=(navigator.appVersion);
+    aera.innerHTML=`${navigator.appVersion}`;
 };
+
+
